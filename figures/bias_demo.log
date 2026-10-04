@@ -1,0 +1,18 @@
+
+Off-shell region: m4l > 130 GeV
+  true c    observed H+I (fb)     xi_fit    apparent Gamma/Gamma_SM
+   -0.50        -9.864593e-02     0.9559                     0.8348  <- truth is 1.0000, no real width change
+   -0.20        -1.041360e-01     0.9822                     0.9306  <- truth is 1.0000, no real width change
+    0.00        -1.079396e-01     1.0000                     1.0000
+    0.20        -1.118581e-01     1.0180                     1.0742  <- truth is 1.0000, no real width change
+    0.50        -1.179511e-01     1.0455                     1.1948  <- truth is 1.0000, no real width change
+
+Off-shell region: m4l > 300 GeV
+  true c    observed H+I (fb)     xi_fit    apparent Gamma/Gamma_SM
+   -0.50        -2.570767e-02     0.9133                     0.6959  <- truth is 1.0000, no real width change
+   -0.20        -2.870274e-02     0.9651                     0.8674  <- truth is 1.0000, no real width change
+    0.00        -3.081797e-02     1.0000                     1.0000
+    0.20        -3.302801e-02     1.0352                     1.1486  <- truth is 1.0000, no real width change
+    0.50        -3.652084e-02     1.0886                     1.4043  <- truth is 1.0000, no real width change
+
+Saved bias_demo.pdf

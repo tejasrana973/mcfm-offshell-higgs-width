@@ -1,0 +1,500 @@
+Sender: LSF System <lsfadmin@cb004>
+Subject: Job 9809558: <ulimit -s unlimited; export OMP_NUM_THREADS=2; export OMP_STACKSIZE=512M; ./mcfm input_p132_pk.ini> in cluster <centralcluster> Done
+
+Job <ulimit -s unlimited; export OMP_NUM_THREADS=2; export OMP_STACKSIZE=512M; ./mcfm input_p132_pk.ini> was submitted from host <cw01> by user <ranat> in cluster <centralcluster> at Tue Sep 29 02:30:45 2026
+Job was executed on host(s) <2*cb004>, in queue <l>, as user <ranat> in cluster <centralcluster> at Tue Sep 29 02:31:12 2026
+</home/belle2/ranat> was used as the home directory.
+</home/belle2/ranat/desy_project/MCFM-10.3/Bin> was used as the working directory.
+Started at Tue Sep 29 02:31:12 2026
+Terminated at Tue Sep 29 02:34:13 2026
+Results reported at Tue Sep 29 02:34:13 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+ulimit -s unlimited; export OMP_NUM_THREADS=2; export OMP_STACKSIZE=512M; ./mcfm input_p132_pk.ini
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   357.60 sec.
+    Max Memory :                                 50 MB
+    Average Memory :                             50.00 MB
+    Total Requested Memory :                     8000.00 MB
+    Delta Memory :                               7950.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                5
+    Run time :                                   181 sec.
+    Turnaround time :                            208 sec.
+
+The output (if any) follows:
+
+ **************** MCFM - version 10.3 ***************
+ *                                                  *
+ *  MCFM, v10.3                     January 2023    *
+ *  CuTe-MCFM, v1.2                                 *
+ *                                                  *
+ *  On the web: https://mcfm.fnal.gov/              *
+ *                                                  *
+ *  MCFM Authors:                                   *
+ *                                                  *
+ *   John Campbell <johnmc@fnal.gov>                *
+ *   Keith Ellis <ellis@fnal.gov>                   *
+ *   Tobias Neumann <tneumann@fnal.gov>             *
+ *   Ciaran Williams <ciaranwi@buffalo.edu>         *
+ *                                                  *
+ *  CuTe-MCFM Authors:                              *
+ *                                                  *
+ *   Thomas Becher <becher@itp.unibe.ch>            *
+ *   Tobias Neumann <tneumann@fnal.gov>             *
+ *                                                  *
+ *   See https://mcfm.fnal.gov/                     *
+ *     for a full list of contributors.             *
+ *                                                  *
+ ****************************************************
+
+ ****************  MCFM references   ****************
+ *                                                  *
+ *  Precision phenomenology with MCFM-9.0           *
+ *   J.M. Campbell, T. Neumann                      *
+ *    arXiv:1909.09117                              *
+ *                                                  *
+ *  An update on vector boson pair production at    *
+ *    hadron colliders                              *
+ *   J.M. Campbell, R.K. Ellis, PRD60 (1999) 113006 *
+ *                                                  *
+ *  Vector boson pair production at the LHC         *
+ *   J.M. Campbell, R.K. Ellis, C. Williams,        *
+ *    JHEP 1107 (2011) 018                          *
+ *                                                  *
+ ****************************************************
+ **************  Process references   ***************
+ *                                                  *
+ *  Bounding the Higgs width at the LHC using       *
+ *    full analytic results for gg -> e-e+mu-mu+    *
+ *   J.M. Campbell, R.K. Ellis, C. Williams,        *
+ *    arXiv:1311.3589                               *
+ *                                                  *
+ ****************************************************
+ ****************************************************
+ *   MCFM uses the libraries                        *
+ *                                                  *
+ *    AMOS (Netlib)                                 *
+ *    Chaplin 1.2 (Buehler, Duhr)                   *
+ *    HandyG 0.1.4 (Naterop, Signer, Ulrich)        *
+ *    hplog6 1.6 (Gehrmann, Remiddi)                *
+ *    LHAPDF 6.5.1 (Buckley, et al.)                *
+ *    QCDLoop 2.0.9 (Carazza, Ellis, Zanderighi)    *
+ *    OneLOop (van Hameren)                         *
+ *    Quad Double 2.3.22 (Hida, Li, Bailey)         *
+ *                                                  *
+ ****************************************************
+ 
+ Running MCFM with            2  OMP threads
+ 
+ 
+ MCFM compiled with GCC version 11.5.0 20240719 (Red Hat 11.5.0-14) using the options -ffixed-form -cpp -I /home/belle2/ranat/desy_project/MCFM-10.3/src/Inc -I /home/belle2/ranat/desy_project/MCFM-10.3/. -I /home/belle2/ranat/desy_project/MCFM-10.3/Bin/local/include -I /home/belle2/ranat/desy_project/MCFM-10.3/Bin/local/include/qd -D_REENTRANT -D HAVE_LHAPDF=1 -D WITH_VVAMP=1 -mtune=generic -march=x86-64-v2 -g -O2 -finit-local-zero -ffixed-line-length-none -ffree-line-length-512 -fopenmp -ffpe-summary=none -fallow-argument-mismatch -fPIC -J include -fpre-include=/usr/include/finclude/math-vector-fortran.h
+ 
+ 
+ Running MCFM as ./mcfm input_p132_pk.ini
+ 
+Chooser: process chosen by nproc = 132
+
+ *************************** f(p1)+f(p2) --> ******************************************
+ * Z(e^-(p3)+e^+(p4)) + Z(mu^-(p5)+mu^+(p6)                                           *
+ * [(gg->ZZ) squared]                                                                 *
+ **************************************************************************************
+
+
+ *****************************************************
+ *     MCFM is calling LHAPDF                        *
+ *                                                   *
+ *   PDFname NNPDF31_nnlo_as_0118                    *
+ *   PDFmember  0                                    *
+ *                                                   *
+ *****************************************************
+
+ ************** Electroweak parameters **************
+ *                                                  *
+ *  zmass(+)   91.1876000     wmass(+)  80.3850000  *
+ * zwidth(+)    2.4952000    wwidth(+)   2.0850000  *
+ *     Gf(+) 0.116639D-04   1/aemmz    132.2319487  *
+ *     xw       0.2228972      mtop(+) 173.3000000  *
+ *   gwsq       0.4263525       esq      0.0950328  *
+ * top width    1.4777968      at order  (LO)       *
+ *    mb        4.6600000        mc      1.2750000  *
+ *                                                  *
+ * Parameters marked (+) are input, others derived  *
+ ****************************************************
+
+ ****************** Higgs parameters ****************
+ *                                                  *
+ *   mass(H) =  125.00      width(H) =  0.41650E-02 *
+ *                                                  *
+ *              Br( H -> b bbar)  =   0.55172       *
+ *              Br( H -> tau tau) =   0.06212       *
+ *              Br( H -> W W)     =   0.00000       *
+ *              Br( H -> Z Z)     =   0.00000       *
+ *              Br( H -> gam gam) =   0.00236       *
+ *              Br( H -> Z gam)   =   0.00156       *
+ ****************************************************
+ *                                                  *
+ * Note: branching ratios reported here can be > 1  *
+ *       since the total Higgs width is calculated  *
+ *       at NLO but the BR calculation uses a       *
+ *       partial width at LO only.                  *
+ *                                                  *
+ ****************************************************
+
+ WARNING: Higgs decay H->ZZ is below threshold and
+ may not yield sensible results - check the number
+ of integration points
+
+ ***************** CKM mixing matrix ****************
+ *                                                  *
+ *      Vud=.97417    Vus=.22480    Vub=.40900E-02  *
+ *      Vcd=.22000    Vcs=.99500    Vcb=.40500E-01  *
+ ****************************************************
+
+ ************* Strong coupling, alpha_s  ************
+ *                                                  *
+ *       alpha_s (scale)  0.12515670                *
+ *       alpha_s (zmass)  0.11800216                *
+ *         (using 1-loop running of alpha_s)        *
+ ****************************************************
+ Setting new_pspace = .false. !
+ Using sobol with world_size =            1
+Chooser: process chosen by nproc = 132
+ 
+LO warmup integration, contribution  1
+ 
+ 
+ Vegas integration parameters:
+ ndim = 10  ncall =       100000  iter =  5  alpha = 1.5
+ 
+
+ ****************** Basic mass cuts *****************
+ *                                                  *
+ *              4.00  <   m34  < 12998.70           *
+ *              4.00  <   m56  < 12998.70           *
+ *            124.00  <  m3456 <   126.00           *
+ ****************************************************
+
+ ****************** Generic cuts ********************
+ *                                                  *
+ *      7.000 <     pt(lepton)     < 13000.000 GeV  *
+ *      0.000 <    |eta(lepton)|   <     2.400      *
+ *       pt(missing)      >    30.00 GeV            *
+ *      7.000 <   pt(2nd lepton)   < 13000.000 GeV  *
+ *      0.000 <  |eta(2nd lepton)| <     2.400      *
+ *      7.000 <   pt(3rd lepton)   < 13000.000 GeV  *
+ *      0.000 <  |eta(3rd lepton)| <     2.400      *
+ *  (3,4) transverse mass >     0.00 GeV            *
+ *      R(jet,lepton)     >     0.00                *
+ *     R(lepton,lepton)   >     0.00                *
+ * |eta(jet1)-eta(jet2)|  >     0.00                *
+ ****************************************************
+ ****************************************************
+ *                                                  *
+ *  gg->ZZ box loop includes gens. 1 and 2          *
+ *  gg->ZZ box loop includes bottom quark           *
+ *  gg->ZZ box loop includes top quark              *
+ *                                                  *
+ *  Numer. stability: pt(Z) > 0.100 GeV (gens. 1,2) *
+ *  Numer. stability: pt(Z) > 0.100 GeV (b,t loops) *
+ *                                                  *
+ ****************************************************
+************** Integration by Vegas (iteration   1) ***************
+*                                                                 *
+*  integral  =  0.97738124E-03   accum. integral =  0.97738124E-03*
+*  std. dev =   0.49795669E-03   accum. std. dev =  0.49795669E-03*
+*   max. wt. =    0.441883E-03                                    *
+*                                                                 *
+*  CPU time used:  0.12360801     seconds                         *
+*  Wall time used:  0.62000000E-01 seconds                        *
+*  Threading efficiency:    99.7%                                 *
+*                                                                 *
+***************   chi**2/iteration =    0.000       ***************
+ 
+************** Integration by Vegas (iteration   2) ***************
+*                                                                 *
+*  integral  =  0.20528254E-05   accum. integral =  0.20551007E-05*
+*  std. dev =   0.76055979E-06   accum. std. dev =  0.76055890E-06*
+*   max. wt. =    0.441883E-03                                    *
+*                                                                 *
+*  CPU time used:   2.0492690     seconds                         *
+*  Wall time used:   1.0340000     seconds                        *
+*  Threading efficiency:    99.1%                                 *
+*                                                                 *
+***************   chi**2/iteration =    3.836       ***************
+ 
+************** Integration by Vegas (iteration   3) ***************
+*                                                                 *
+*  integral  =  0.69838941E-04   accum. integral =  0.21023886E-05*
+*  std. dev =   0.28785194E-04   accum. std. dev =  0.76029356E-06*
+*   max. wt. =    0.441883E-03                                    *
+*                                                                 *
+*  CPU time used:   7.4309840     seconds                         *
+*  Wall time used:   3.8180000     seconds                        *
+*  Threading efficiency:    97.3%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.689       ***************
+ 
+************** Integration by Vegas (iteration   4) ***************
+*                                                                 *
+*  integral  =  0.20673250E-03   accum. integral =  0.21198804E-05*
+*  std. dev =   0.82230119E-04   accum. std. dev =  0.76026106E-06*
+*   max. wt. =    0.441883E-03                                    *
+*                                                                 *
+*  CPU time used:   8.0752716     seconds                         *
+*  Wall time used:   4.0780000     seconds                        *
+*  Threading efficiency:    99.0%                                 *
+*                                                                 *
+***************   chi**2/iteration =    5.190       ***************
+ 
+ Restarting integration due to abnormally large chisq > 2*warmupChisqGoal
+ 
+CPU time for last  5 iterations:   17.679632    
+Wall time for last  5 iterations:   8.9920000    
+ 
+ 
+CPU time total:   17.750274    
+Wall time total:   9.0520000    
+ 
+Relative warmup precision goal of  25 percent not reached
+ Increasing calls to                140000
+ 
+LO warmup integration, contribution  1
+ 
+ 
+ Vegas integration parameters:
+ ndim = 10  ncall =       140000  iter =  5  alpha = 1.5
+ 
+************** Integration by Vegas (iteration   1) ***************
+*                                                                 *
+*  integral  =  0.27267255E-02   accum. integral =  0.27267255E-02*
+*  std. dev =   0.15172251E-02   accum. std. dev =  0.15172251E-02*
+*   max. wt. =    0.119217E-02                                    *
+*                                                                 *
+*  CPU time used:  0.17622948     seconds                         *
+*  Wall time used:  0.89000000E-01 seconds                        *
+*  Threading efficiency:    99.0%                                 *
+*                                                                 *
+***************   chi**2/iteration =    0.000       ***************
+ 
+************** Integration by Vegas (iteration   2) ***************
+*                                                                 *
+*  integral  =  0.90026144E-05   accum. integral =  0.90113613E-05*
+*  std. dev =   0.27219293E-05   accum. std. dev =  0.27219249E-05*
+*   max. wt. =    0.119217E-02                                    *
+*                                                                 *
+*  CPU time used:   3.1293964     seconds                         *
+*  Wall time used:   1.5830000     seconds                        *
+*  Threading efficiency:    98.8%                                 *
+*                                                                 *
+***************   chi**2/iteration =    3.209       ***************
+ 
+************** Integration by Vegas (iteration   3) ***************
+*                                                                 *
+*  integral  =  0.19558007E-02   accum. integral =  0.90180980E-05*
+*  std. dev =   0.14632334E-02   accum. std. dev =  0.27219202E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   10.067652     seconds                         *
+*  Wall time used:   5.0840000     seconds                        *
+*  Threading efficiency:    99.0%                                 *
+*                                                                 *
+***************   chi**2/iteration =    2.489       ***************
+ 
+************** Integration by Vegas (iteration   4) ***************
+*                                                                 *
+*  integral  =  0.83787485E-05   accum. integral =  0.87038276E-05*
+*  std. dev =   0.27683322E-05   accum. std. dev =  0.19408893E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   8.6178570     seconds                         *
+*  Wall time used:   4.3470000     seconds                        *
+*  Threading efficiency:    99.1%                                 *
+*                                                                 *
+***************   chi**2/iteration =    1.669       ***************
+ 
+************** Integration by Vegas (iteration   5) ***************
+*                                                                 *
+*  integral  =  0.12357745E-02   accum. integral =  0.87155443E-05*
+*  std. dev =   0.62810429E-03   accum. std. dev =  0.19408800E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   8.6205025     seconds                         *
+*  Wall time used:   4.3480000     seconds                        *
+*  Threading efficiency:    99.1%                                 *
+*                                                                 *
+***************   chi**2/iteration =    2.206       ***************
+ 
+ 
+CPU time for last  5 iterations:   30.612139    
+Wall time for last  5 iterations:   15.451000    
+ 
+ 
+CPU time total:   48.362534    
+Wall time total:   24.503000    
+ 
+ Reached warmup precisionGoal with                140000  calls per iteration
+ 
+ Snapshot written to ./ggZZbx_lo_NNPDF31_nnlo_as_0118_62___62___p132_pk_snapshot.dat
+ 
+ 
+ WARMUP phase complete
+ Intermediate warmup result
+Value of integral is   0.871554E-05 ±   0.19409E-05 fb
+ Maximum chisq/it over all contributions is   2.21    
+ 
+first full integration for LO contribution  1
+Chooser: process chosen by nproc = 132
+ 
+ Vegas integration parameters:
+ ndim = 10  ncall =       560000  iter = 10  alpha = 0.8
+ 
+************** Integration by Vegas (iteration   1) ***************
+*                                                                 *
+*  integral  =  0.11811314E-02   accum. integral =  0.11811314E-02*
+*  std. dev =   0.39311958E-03   accum. std. dev =  0.39311958E-03*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   38.942253     seconds                         *
+*  Wall time used:   19.664000     seconds                        *
+*  Threading efficiency:    99.0%                                 *
+*                                                                 *
+***************   chi**2/iteration =    0.000       ***************
+ 
+************** Integration by Vegas (iteration   2) ***************
+*                                                                 *
+*  integral  =  0.22107309E-02   accum. integral =  0.16004913E-02*
+*  std. dev =   0.47422168E-03   accum. std. dev =  0.30265002E-03*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   35.838921     seconds                         *
+*  Wall time used:   18.159000     seconds                        *
+*  Threading efficiency:    98.7%                                 *
+*                                                                 *
+***************   chi**2/iteration =    2.794       ***************
+ 
+************** Integration by Vegas (iteration   3) ***************
+*                                                                 *
+*  integral  =  0.31273616E-02   accum. integral =  0.19416051E-02*
+*  std. dev =   0.56427244E-03   accum. std. dev =  0.26670883E-03*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   34.694740     seconds                         *
+*  Wall time used:   17.497000     seconds                        *
+*  Threading efficiency:    99.1%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.240       ***************
+ 
+************** Integration by Vegas (iteration   4) ***************
+*                                                                 *
+*  integral  =  0.29566641E-02   accum. integral =  0.28539027E-02*
+*  std. dev =   0.89512599E-04   accum. std. dev =  0.84860735E-04*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   28.805405     seconds                         *
+*  Wall time used:   14.522000     seconds                        *
+*  Threading efficiency:    99.2%                                 *
+*                                                                 *
+***************   chi**2/iteration =    7.166       ***************
+ 
+************** Integration by Vegas (iteration   5) ***************
+*                                                                 *
+*  integral  =  0.30974062E-02   accum. integral =  0.30547406E-02*
+*  std. dev =   0.39113157E-04   accum. std. dev =  0.35521648E-04*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   29.227417     seconds                         *
+*  Wall time used:   14.770000     seconds                        *
+*  Threading efficiency:    98.9%                                 *
+*                                                                 *
+***************   chi**2/iteration =    7.072       ***************
+ 
+************** Integration by Vegas (iteration   6) ***************
+*                                                                 *
+*  integral  =  0.31227400E-02   accum. integral =  0.30749714E-02*
+*  std. dev =   0.54583058E-04   accum. std. dev =  0.29772262E-04*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   29.210403     seconds                         *
+*  Wall time used:   14.727000     seconds                        *
+*  Threading efficiency:    99.2%                                 *
+*                                                                 *
+***************   chi**2/iteration =    5.876       ***************
+ 
+************** Integration by Vegas (iteration   7) ***************
+*                                                                 *
+*  integral  =  0.30843007E-02   accum. integral =  0.30824939E-02*
+*  std. dev =   0.14591262E-04   accum. std. dev =  0.13102316E-04*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   26.990356     seconds                         *
+*  Wall time used:   13.640000     seconds                        *
+*  Threading efficiency:    98.9%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.910       ***************
+ 
+************** Integration by Vegas (iteration   8) ***************
+*                                                                 *
+*  integral  =  0.30515336E-02   accum. integral =  0.30627174E-02*
+*  std. dev =   0.98530418E-05   accum. std. dev =  0.78748381E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   28.353821     seconds                         *
+*  Wall time used:   14.313000     seconds                        *
+*  Threading efficiency:    99.0%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.718       ***************
+ 
+************** Integration by Vegas (iteration   9) ***************
+*                                                                 *
+*  integral  =  0.30398803E-02   accum. integral =  0.30526321E-02*
+*  std. dev =   0.88548813E-05   accum. std. dev =  0.58844626E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   28.614899     seconds                         *
+*  Wall time used:   14.468000     seconds                        *
+*  Threading efficiency:    98.9%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.592       ***************
+ 
+************** Integration by Vegas (iteration  10) ***************
+*                                                                 *
+*  integral  =  0.30281276E-02   accum. integral =  0.30480062E-02*
+*  std. dev =   0.12198305E-04   accum. std. dev =  0.53000063E-05*
+*   max. wt. =    0.144904E-02                                    *
+*                                                                 *
+*  CPU time used:   28.266083     seconds                         *
+*  Wall time used:   14.351000     seconds                        *
+*  Threading efficiency:    98.5%                                 *
+*                                                                 *
+***************   chi**2/iteration =    4.446       ***************
+ 
+ 
+CPU time for last 10 iterations:   308.94687    
+Wall time for last 10 iterations:   156.11400    
+ 
+ 
+CPU time total:   357.32099    
+Wall time total:   180.62400    
+ 
+ 
+ Snapshot written to ./ggZZbx_lo_NNPDF31_nnlo_as_0118_62___62___p132_pk_snapshot.dat
+ 
+=== Result for PDF set NNPDF31_nnlo_as_0118 member   0 ===
+Value of integral is   0.304801E-02 ±   0.53000E-05 fb
+ Maximum chisq/it over all contributions is   4.45    
+
+
+PS:
+
+Read file <p132_pk.err> for stderr output of this job.
+

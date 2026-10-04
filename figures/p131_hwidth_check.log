@@ -1,0 +1,9 @@
+hwidth_ratio = 5.0625  (on-peak bin: held fixed, not rescaled)
+  signal (128, baseline, unscaled)   : 0.351052 fb
+  interference (129, baseline)       : 0.000094 fb
+  continuum (132, unchanged)         : 0.003048 fb
+  PREDICTED process-131 total        : 0.354194 fb
+
+Expect the real MCFM value to land within ~1% of this,
+by the narrow-width-approximation argument in the docstring --
+NOT scaled by hwidth_ratio the way an off-peak bin would be.
