@@ -34,10 +34,10 @@ energy-independence assumption fails.
 
 | File | What it shows |
 |---|---|
-| `interference_lineshape.png` | The baseline interference lineshape, validated against the literature. |
-| `kappa_scan.png` | The lineshape under a uniform coupling rescaling, the standard method's assumption. |
-| `eft_stress_test.png` | The same, under a toy energy-dependent coupling instead. |
-| `bias_demo.png` | The resulting bias in a naive width extraction when that assumption fails. |
+| `interference_lineshape.pdf` | The baseline interference lineshape, validated against the literature. |
+| `kappa_scan.pdf` | The lineshape under a uniform coupling rescaling, the standard method's assumption. |
+| `eft_stress_test.pdf` | The same, under a toy energy-dependent coupling instead. |
+| `bias_demo.pdf` | The resulting bias in a naive width extraction when that assumption fails. |
 
 ## How this was actually run
 
